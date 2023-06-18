@@ -8,8 +8,8 @@ function fibonacciRecMem(n, memo){
     return memo[n] = fibonacciRecMem(n - 1, memo) + fibonacciRecMem(n - 2, memo);
 }
 
-console.log(fibonacci(0));
-console.log(fibonacci(1));
-console.log(fibonacci(2));
-console.log(fibonacci(3));
-console.log(fibonacci(4));
+console.log(fibonacciRecMem(0));
+console.log(fibonacciRecMem(1));
+console.log(fibonacciRecMem(2));
+console.log(fibonacciRecMem(3));
+console.log(fibonacciRecMem(4));
