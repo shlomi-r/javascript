@@ -2,6 +2,8 @@ function high(x){
   //           00000000011111111112222222222
   //           12345678901234567890123456789
   const map = 'abcdefghijklmnopqrstuvwxyz';
+
+  // wordWeights = [{word: 'man', value: 28}, ...]
   const wordWeights = x.split(' ').reduce((arr, key) => {  
       arr.push(
       { 
